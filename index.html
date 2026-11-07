@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>BAJI D JAP - BAN CHECKER</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+  <svg id="pent" viewBox="0 0 300 300" fill="none" stroke="#c4122e" stroke-width="1.6"><circle cx="150" cy="150" r="140"/><circle cx="150" cy="150" r="130"/><polygon points="150,20 226.4,255.2 26.4,109.8 273.6,109.8 73.6,255.2"/><circle cx="150" cy="150" r="50" stroke-dasharray="3 5"/></svg>
+
+  <div id="fog"></div>
+
+
+
+  <!-- ÉCRAN D'ENTRÉE -->
+
+  <section id="intro">
+
+    <img class="pic" src="kilian.JPG" alt="">
+
+    <div class="intro-title">
+
+      <span class="line1" id="iL1">KILLIAN D JAMES</span>
+
+      <span class="line2" id="iL2">LES ÂMES QUI ENTRENT ICI NE REPARTENT JAMAIS…</span>
+
+    </div>
+
+    <button id="enter" type="button">SYSTÈME ZODYL CHECK</button>
+
+  </section>
+
+
+
+  <div class="card">
+
+    <div class="portrait"><img src="bradley.JPG" alt=""></div>
+
+
+
+    <!-- Menu caché -->
+
+    <div class="menu-container">
+
+      <div class="menu-dots" onclick="toggleMenu()">&#8942;</div>
+
+      <div id="menuDropdown" class="menu-dropdown">
+
+        <div class="menu-item active" onclick="selectPlace('hajun')">BAJI D JAP</div>
+
+        <div class="menu-item" onclick="selectPlace('empereur')">BAJI D JAP</div>
+
+        <div class="menu-item" onclick="selectPlace('baron')">L'ANGE SANS TETE</div>
+
+        <div class="menu-item" onclick="selectPlace('esdeath')">L'AVARICE</div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Titres -->
+
+    <div class="title-wrap">
+
+      <h1 class="main-title">BAN CHECK FREE BY BAJI D JAP</h1>
+
+    </div>
+
+
+
+    <!-- Sous-titres dynamiques -->
+
+    <div id="title-hajun" class="sub-title active">L'ANGE SANS TETE</div>
+
+    <div id="title-empereur" class="sub-title">BAJI D JAP<br> <span style="font-size:0.9rem; color:#fff; font-weight:900;">[L'ANGE SANS TETE]</span></div>
+
+    <div id="title-baron" class="sub-title">L'ANGE SANS TETE<br> <span style="font-size:0.9rem; color:#fff; font-weight:900;">[L'ANGE SANS TETE]</span></div>
+
+    <div id="title-esdeath" class="sub-title">LE PECHER DE L'AVARICE</div>
+
+
+
+    <!-- Formulaire -->
+
+    <div class="input-group">
+
+      <label for="phone">NUMÉRO DE LA CIBLE</label>
+
+      <input type="tel" id="phone" placeholder="Ex: 243861234567...">
+
+    </div>
+
+
+
+    <button class="check-btn" onclick="checkStatus()">VÉRIFICATION</button>
+
+
+
+    <!-- Zone de résultat -->
+
+    <div id="statusBox" class="status"></div>
+
+
+
+    <!-- Footer -->
+
+    <div class="footer">ʙᴀᴊɪ•ᴅ•ᴊᴀᴘ ⚖️…ʟ’ᴀɴɢᴇ ᴤᴀɴᴤ ᴛÊᴛᴇ…</div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+  <script src="intro.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
