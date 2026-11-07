@@ -96,7 +96,7 @@ async function checkStatus() {
 
     box.className = "status banned";
 
-    box.innerText = "❌ ERREUR SYSTÈME : NUMÉRO INVALIDE. INDICATIF OBLIGATOIRE (EX: 243...).";
+    box.innerText = "❌ ERREUR SYSTÈME : NUMÉRO INVALIDE. INDICATIF OBLIGATOIRE (EX: 237...).";
 
     box.style.display = "block";
 
@@ -108,7 +108,7 @@ async function checkStatus() {
 
   box.className = "status loading";
 
-  box.innerText = "⏳ INJECTION DES PROTOCOLES... ANALYSE PAR BAJI D JAP L'ANGE SANS TETE...";
+  box.innerText = "⏳ INJECTION DES PROTOCOLES... ANALYSE PAR KILLIAN D";
 
   box.style.display = "block";
 
